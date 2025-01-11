@@ -1,0 +1,99 @@
+/* The colour palette, made as variables for ease of use*/
+:root {
+
+    --lightlightblue: #b7d3f2;
+    --purple: #8a84e2;
+    --lightblue: #84afe6;
+    --skyblue: #79beee;
+}
+
+body {
+    background-color: var(--lightlightblue);
+}
+
+a.btn-link {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    background-color: var(--lightblue);
+    color: white;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.form-container {
+    background-color: var(--purple);
+    color: white;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+.custom-input {
+    background-color: var(--lightblue);
+    color: white;
+    border: none;
+}
+
+.custom-input:focus {
+    outline: none;
+    box-shadow: 0 0 5px var(--skyblue);
+}
+
+.custom-btn {
+    background-color: var(--skyblue);
+    color: white;
+    border: none;
+}
+
+.custom-btn:hover {
+    background-color: var(--lightblue);
+}
+
+h1 {
+    color: var(--purple);
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+a.btn {
+    background-color: var(--skyblue);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+a.btn:hover {
+    background-color: var(--lightblue);
+    color: white;
+}
+
+.table td {
+    white-space: normal;
+    word-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.container {
+    overflow-x: auto;
+}
+
+.table {
+    max-width: 100%;
+    table-layout: fixed;
+}
+
+
+
